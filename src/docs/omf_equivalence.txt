@@ -1,0 +1,244 @@
+Applications				Broken
+    Amusement				Game
+    Education				Education
+        Arts				Art
+        Computer Science		ComputerScience
+        English	 			Languages
+        Language			Languages
+        Maths				Math
+        Music				Music
+        Science				Science
+        Technology			ComputerScience
+        Testing				Broken
+        Other				Education
+    Games				Game
+        Arcade				ArcadeGame
+        Board				BoardGame
+        First Person Shooters		RolePlay
+        Puzzles	     			LogicGame
+        Fighting			ArcadeGame
+        Role-Playing			RolePlay
+        Simulation			Simulation
+        Strategy			StrategyGame
+        Other				Game
+    Internet				Network
+        Chat				Chat
+        Email				Email
+        Fax				Network
+        File Sharing			FileTransfer
+        FTP  				FileTransfer
+        Internet Phone			Telephony
+        Messaging			InstantMessaging
+        News				News
+        Video Conferencing		VideoConference
+        Web   				WebBrowser
+        Other				Network
+    Multimedia				AudioVideo
+        Graphics			Video
+            3D Modelling		3DGraphics
+            3D Rendering		3DGraphics
+            CAD				Engineering
+            Capture			Recorder
+            Conversion			AudioVideoEditing
+            Drawing			2DGraphics
+            Editing			2DGraphics
+            Viewing			Viewer
+            Other			Video
+        Sound				Audio
+            Analysis			AudioVideoEditing
+            CD Mastering		DiscBurning
+            Conversion			AudioVideoEditing
+            Editing			AudioVideoEditing
+            MIDI			Midi
+            Mixers			Mixer
+            Players			Player
+            Recording			Recorder
+            Speech			Audio
+            Other			Audio
+        Video				Video
+            Capture			Recorder
+            Conversion			AudioVideoEditing
+            Display			Player
+            Editing			AudioVideoEditing
+            Other			Video
+        Other				AudioVideo
+    Office				Office
+        Calendar			Calendar
+        Data Processing			Office
+        Database			Database
+        Email				Email
+        Financial			Finance
+        PIM				ContactManagement
+        Plotting			Office
+        Presentation			Presentation
+        Publishing			Publishing
+            Web Publishing		Publishing
+        Word Processing			WordProcessor
+        Other				Office
+    Scientific				Science
+        Astronomy			Astronomy
+        Astrophysics			Astronomy
+        Biology				Biology
+        Chemistry			Chemistry
+        EDA				Engineering
+        Genetics			Biology
+        Math				Math
+        Physics				Physics
+        Visualisation			DataVisualisation
+        Other				Science
+    Security				Security
+        Cryptography			Security
+        Other				Security
+    Text Editors			TextEditor
+        CLI				TextEditor
+        GUI				TextEditor
+        Other				TextEditor
+    Utilities				Utility
+        Archiving			Archiving
+        Calculating			Calculator
+        Clocks				Clock
+        Compression			Compression
+        File Utilities			FileTools
+        Monitors			Monitor
+        Printing			Printing
+        Terminals			TerminalEmulator
+        Text Utilities			ConsoleOnly
+        Other				Utility
+    X					Utility
+        Configuration			DesktopSettings
+        Fonts				DesktopSettings
+        Login Managers			DesktopSettings
+        Screensavers			Screensaver (?)
+        Window Managers			DesktopSettings
+        Other  				DesktopSettings
+CDE					DesktopSettings
+Development				Development
+    Databases				Database
+    Development Tools			Development
+        Build Tools			Building
+        Code Generators			Development
+        Configuration			Development
+        Debuggers			Debugger
+        IDEs				IDE
+        Packaging			Development
+        Profiling			Profiling
+        RAD				Development
+        Version Control			RevisionControl
+        Other				Development
+    Environments			Development
+        ADA				Development
+        C				Development
+        C++				Development
+        GNOME				Development
+        GTK+				Development
+        gtk++				Development
+        Java				Development
+        KDE				Development
+        Perl				Development
+        Python				Development
+        Qt				Development
+        Tcl/Tk				Development
+        WebML				Development
+        Other				Development
+    Kernels				Development
+        FreeBSD				Development
+        Linux				Development
+        NetBSD				Development
+        Other				Development
+    Libraries				Development
+    System Calls			Development
+    Other  				Development
+General					Broken
+    Licenses				Documentation
+    Linux				Documentation
+        Distributions			Documentation
+            Caldera			Core
+            Debian			Core
+            Mandrake			Core
+            Red Flag			Core
+            Red Hat			Core
+            Slackware			Core
+            SuSE			Core
+            Other			Core
+        General				Documentation
+        Other				Documentation
+    Other				Core
+GNOME					GNOME
+    Core Desktop			Core
+    Applets				Applet
+        Amusement			Game
+        Clock				Clock
+        Monitors			Monitor
+        Multimedia			AudioVideo
+        Network				Network
+        Utility				Utility
+    Applications			GNOME
+    Utilities				Utility
+    Development				Development
+        Applications			Development
+        Introductory			Development
+        Tutorials			Development
+        White Papers			Development
+    Games     				Game
+    Graphics				Graphics
+    Internet				Network
+    Multimedia				AudioVideo
+    Settings				Settings
+    System				System
+    Other				GNOME
+KDE 					KDE
+    Utilities				Utility
+    Applications			KDE
+    Games				Game
+    Graphics				Graphics
+    Internet				Network
+    Multimedia				AudioVideo
+    Settings				Settings
+    System				System
+    Programs				KDE
+    Development				Development
+    Other				KDE
+System					System
+    Administration			Settings
+        Backups				Archiving
+            Local			Archiving
+            Remote			Archiving
+        Filesystems			Filesystem
+        Networking			Network
+            AppleTalk			Network
+            PPP				Network
+            SMB				Network
+            TCP/IP			Network
+            DNS				Network
+            Other			Network
+        Users				Settings
+        Other				Settings
+    Configuration			Settings
+        Config Files			Settings
+        Configuration Tools		Settings
+        Other	      			Settings
+    Hardware				HardwareSettings
+        Processor			HardwareSettings
+        Storage				HardwareSettings
+        Video				HardwareSettings
+        Input Devices			HardwareSettings
+        Networking			HardwareSettings
+        PCI/ISA/PCMCIA			HardwareSettings
+        Other				HardwareSettings
+    Package Management			PackageManager
+    Security				Security
+        Firewall			Security
+        Intrusion Detection		Security
+        Virus	  			Security
+        Other				Security
+    Services				System
+        HTTP				System
+        FTP				System
+        SMB				System
+        SSH				System
+        Telnet				System
+        Syslog				System
+        BIND				System
+        Printing			Printing
+        Other				System
+    Other				System

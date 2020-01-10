@@ -1,0 +1,36 @@
+# An example rarian scroll file
+
+[Document]
+Name=The Beanstalk Manual
+Name[de]=Das Beanstalk Manual
+Name[es]=Beanstalks R us
+# A comment just to break the flow
+DocIdentifier=org.gnome.beanstalk
+Categories=Beanstalks;GNOME
+Comment=An example scroll.  Beanstalk is the arch enemy of Jack.  Don't buy magic beans
+Comment[de]=Eine Beispielrolle.  Bohnenstange ist der Bogenfeind von Jack.  Magische Bohnen nicht kaufen
+Comment[es]=Una voluta del ejemplo.  El Beanstalk es el enemigo del arco de Gato.  No comprar habas mágicas
+DocType=application/Mallard
+DocPath=/usr/share/gnome/help/beanstalk/C/beanstalk.xml
+DocPath[de]=/usr/share/gnome/help/beanstalk/de/beanstalk.xml
+DocPath[es]=/usr/share/gnome/help/beanstalk/es/beanstalk.xml
+#One final comment that is quite long and not relevant to the file at all.  Lets keep the comment going for as long as possible
+
+[Section]
+SectionName=Growing Instructions
+SectionIdentifier=Growing
+SectionPath=/usr/share/gnome/help/beanstalk/C/Growing.xml
+
+[Section]
+SectionName=Looking after your beanstalk
+SectionName[de]=Um dich kümmernd, Bohnenstange sein
+SectionIdentifier=Care
+# Path is relative to top-doc
+SectionPath=care.xml
+SectionPath[de]=care.xml
+
+[Section]
+SectionName=Watering Instructions
+SectionIdentifier=Watering
+SectionDocument=Growing
+SectionPath=Watering.xml

@@ -1,0 +1,24 @@
+# Several sections from the Beanstalk manual
+
+[Section]
+SectionName=Climbing your beanstalk
+SectionIdentifier=Climbing
+SectionDocument=org.gnome.beanstalk
+SectionPath=/opt/gnome-cvs/share/gnome/help/C/beanstalk-climbing.xml
+
+# Section of another section
+[Section]
+SectionName=Trimming dead leafs
+SectionIdentifier=Trimming
+SectionDocument=org.gnome.beanstalk.Care
+SectionPath=/opt/gnome-cvs/share/gnome/help/C/beanstalk-trimming.xml
+
+# 1 more section
+[Section]
+SectionName=Safety Precautions
+SectionIdentifier=Safety
+# Since it's defined in here, the SectionDocument
+# can be defined in terms of the above sections.
+SectionDocument=Climbing
+# This should be relative to the "climbing"section above
+SectionPath=beanstalk-climb-safely.xml
