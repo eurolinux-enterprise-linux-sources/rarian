@@ -1,0 +1,38 @@
+#!@BASH@
+
+# Another simple wrapper script.  This time for scrollkeeper-rebuilddb
+# This one is slightly more complex in that we have to run a command!
+# We also need to pull out the paths from the relevant place first.
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+bindir=@bindir@
+convert_dir=@CONVERT_DIR@
+datarootdir=@datarootdir@
+statedir=@localstatedir@/lib/rarian
+datadir=@datadir@
+output_dir=${datadir}/help
+package_version=@PACKAGE_VERSION@
+convert_string="REPLACEME"
+
+if [ ! @ENABLE_OMF_READ@ ]
+then
+
+if [ -e $statedir/rarian-update-mtimes ]
+then
+    for x in $(grep -e '^0:@:' $statedir/rarian-update-mtimes)
+    do
+	if [[ $convert_string != "REPLACEME" ]]
+	then
+	    convert_string=$convert_string:${x##0:@:}
+	else
+	    convert_string=${x##0:@:}
+	fi
+    done
+else
+    convert_string=$convert_dir
+fi
+
+$bindir/rarian-sk-update -v --clean-index -o $convert_string
+
+fi
